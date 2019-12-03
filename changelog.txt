@@ -1,0 +1,46 @@
+Updated 12/3/2019
+
+Bill Newman
+
+The repo contains PHP unit test examples using the  
+software SimpleTest (http://www.simpletest.org/).
+
+Installation:
+
+Upload all into a sub-folder on your PHP server space.
+
+Install SimpleTest in the folder named simpletest.
+
+Try out the test files in the root folder in approximately this order:
+
+calculator_test1.php - Runs code against a Calculator class.  Adds 2 numbers. 
+Does not incorporate SimpleTest.
+ 
+calculator_test2.php - Demonstrates failed tests against Calculator class. 
+Includes 2 purposeful failing tests, 3 parameters when 2 expected, divide by zero.
+
+calculator_test3.php - Demonstrates successful tests against Calculator class.
+
+contact_test1.php - Demonstrates successful tests against a PHP contact form.
+
+contact_test2.php - Demonstrates a failed test against a PHP contact form.  
+User did not enter their name.
+
+password_form_test.php - Demonstrates passing tests against a mock login form.
+
+There are also files that run more than one test:
+
+suite.php - Includes several of the test files and runs them at one time
+
+run_all.php - Uses a PHP script to run all files that include the string 'test' 
+in the file name in the current folder
+
+View how the files work via a browser then view them internally to see 
+how they are put together.
+
+For more, visit:
+
+http://www.simpletest.org/en/first_test_tutorial.html
+
+http://www.simpletest.org/en/unit_test_documentation.html
+
