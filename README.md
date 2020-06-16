@@ -12,6 +12,7 @@ Upload all into a sub-folder on your PHP server space.
 Install SimpleTest in the folder named simpletest: 
 
 sudo curl -O http://newmanix.com/files/simpletest/simpletest.tar.gz
+
 sudo tar -xzvf simpletest.tar.gz
 
 Try out the test files in the root folder in approximately this order:
